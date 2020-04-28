@@ -1,12 +1,19 @@
 # NumPy: A look at the past, present, and future of array computation
 
-Presentation on NumPy to the University of Michigan EECS Department, Jan. 2020.
+Presentation on NumPy for students of the African Masters of Machine 
+Intelligence (AMMI) program at the African Institute of Mathematical Science
+(AIMS), held virtually on 5/2/2020.
+
+This project is derived from a presentation developed in January 2020; the
+original can be found [here][gh-um].
+
+[gh-um]: https://github.com/BIDS-numpy/presentation-uofm-2020
 
 # Installation
 
 The presentation is in the form of a Jupyter notebook.
 [Rise](https://rise.readthedocs.io/en/maint-5.6/) is used to turn the 
-notebook into a live presentation. 
+notebook into a live presentation.
 There are three steps to making this work: getting an environment set up with 
 all of the necessary dependencies, and getting the code/data for the 
 Event Horizon Telescope example.
@@ -38,7 +45,7 @@ In order to avoid the need for you to build the CDF library from source, I've
 converted a subset of the data that is relevant for the example in this 
 presentation to `.npz` format so it can be read-in by `numpy` directly.
 The download of this converted dataset is included in the notebook.
-If you want to access the original data (or any of the other parker probe data)
+If you want to access the original data (or any of the other Parker probe data)
 you will need to 
 [build CDF from source](https://spacepy.github.io/install.html).
 
