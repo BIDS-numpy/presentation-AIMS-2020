@@ -1,9 +1,10 @@
 import numpy as np
+from typing import Union
 
-def my_strict_sin(x: np.ndarray) -> np.ndarray:
+def my_strict_sin(x: np.ndarray) -> Union[np.ndarray, np.scalar]:
     return np.sin(x)
 
-def my_chill_sin(x: np.array_like) -> np.array_like:
+def my_chill_sin(x: np.array_like) -> Union[np.ndarray, np.scalar]:
     return np.sin(x)
 
 if __name__ == "__main__":
