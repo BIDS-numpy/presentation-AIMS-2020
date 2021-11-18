@@ -16,7 +16,7 @@ lalsuite
 cython
 pandas
 git+https://github.com/pyNFFT/pyNFFT.git@master#pynfft
-git+https://github.com/achael/eht-imaging.git@master#ehtim
+git+https://github.com/achael/eht-imaging.git@main#ehtim
 # Array function protocol example
 dask[array]
 # NumPy type annotations
